@@ -1,0 +1,158 @@
+/*font-family: 'Source Code Pro', monospace*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+/*font-family: 'Asap Condensed', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
+/*font-family: 'Open Sans';*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+/*font-family: 'Saira Condensed', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Saira+Condensed:wght@500&display=swap');
+/*font-family: 'IBM Plex Mono', monospace*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,200&display=swap');
+
+
+body{
+  display: flex;
+  margin: 0;
+  overflow-x: hidden;
+  flex-direction: column;
+  margin: 0pt;
+  font-family: 'Source Code Pro', monospace;
+  text-decoration:none;
+}
+/*===========================================*/
+header{
+ flex-shrink: 0;
+ background-color: #151019;
+ position: fixed;
+ top: 0;
+ left: 0;
+ margin: auto;
+ width: 100%;
+}
+.header_bar{
+  display: flex;
+  padding-top:0;
+  justify-content: space-around;
+}
+.normal_bar_text{
+  color:#551a8b;
+  text-decoration:none;
+  justify-content: center;
+  font-size: 3em;
+  font-family: 'Saira Condensed', sans-serif;
+}
+/*===========================================*/
+main{
+  flex: 1 0 auto;
+}
+h1{
+  font-family: 'IBM Plex Mono', monospace;
+  color:white;
+  margin-bottom: 0.5em;
+  margin-left: 1.2em;
+  font-size: 7em;
+  margin-right: 1.1em;
+}
+.bloco_titulo{
+  margin-left:auto;
+  margin-top:11%;
+  text-align: center;
+  margin-bottom: 11%;
+}
+.normal_text{
+  font-size: 2em;
+  color: white;
+}
+/*==========================================*/
+.projects{
+  display:flex;
+
+  flex-direction: column;
+  height: 44em;
+  align-items: center;
+  margin-left:auto;
+  margin-top:auto;
+  width: 100%;
+}
+.bruh{
+  font-size: 4em;
+  color: white;
+}
+.projects_block{
+  height: 100%;
+  width: 70%;
+  display: flex;
+}
+
+
+.project_1{
+  text-align: center;
+  height: 100%;
+  width: 35%;
+  border-radius: 1em;
+  border-color:white;
+  background-color: #0a070dd9;
+  margin-bottom: 1em;
+
+}
+.project_1_image{
+  height: 15em;
+  width: auto;
+  margin-bottom: 3em;
+}
+
+.project_1 h5{ 
+  padding-top: 0px;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  margin-top:0em;
+  margin-bottom: 1em;
+  
+  
+}
+.project_1 p{
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-size:1em;
+}
+
+.project_1_button{
+  background-color: #371c46b3;
+  border-radius: 0.1em;
+  height: 3em;
+  width: 8em;
+  font-size: 1.5em;
+  font-family: 'Asap Condensed', sans-serif;
+  color: white;
+  margin-bottom:10%;
+}
+.project_1_button:hover{
+  cursor:pointer;
+}
+.project_1 span{
+  color: white;
+  font-size: 1.5em;
+  border-width: 0.1em;
+  border-style: ridge;
+  border-radius: 0.5em;
+}
+/*==========================================*/
+a {
+  will-change: transform;
+  transition: transform .2s;
+  }
+  
+a:hover {
+  transform: scale(1.1);
+  }
+a:active{
+  color: white;
+}
+.fundo{
+  background-image: url(imagens/ererer.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
