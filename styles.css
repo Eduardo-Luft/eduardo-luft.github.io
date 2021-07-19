@@ -150,7 +150,7 @@ a:active{
   color: white;
 }
 .fundo{
-  background-image: url(imagens/ererer.png);
+  background-image: url(ererer.png);
   background-size: cover;
   background-attachment: fixed;
 }
